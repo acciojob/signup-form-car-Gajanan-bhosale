@@ -11,40 +11,40 @@
 
 	<form method="post">
 
-		<label for="name">Name</label>
+		<lable for="name">Name</lable>
 		<input type="text" id="name" placeholder="Name" required/>
 
 		<lable for="email">Email</lable>
 		<input type="email" id="email" placeholder="Email" required/>	
 
-		<label for="gender_m">Male</label>
+		<lable for="gender_m">Male</lable>
 		<input type="radio" id="gender_m" name="gender" required/>
 		<lable for="gender_f">Female</lable>
 		<input type="radio" id="gender_f" name="gender" required/>
 
-		<label id="cars">Car Brands</label>
-		<select id="cars" placeholde="--Please choose an option--"
-			required>
-			<option>BMW</option>
-			<option>AUDI</option>
-			<option>TATA</option>
+		<lable for="cars">Car Brands</lable>
+		<select id="cars" required>
+			<option value="">--Please choose an option--</option>
+			<option value="BMW">BMW</option>
+			<option value="AUDI">AUDI</option>
+			<option value="TATA">TATA</option>
 		</select>
 
-		<label for="age">Age</label>
+		<lable for="age">Age</lable>
 		<input type="number" id="age" placeholder="Age" required/>
 
 		<lable for="dob">DOB</lable>
 		<input type="date" id="dob" required/>
 
 		<lable for="tel">Phone Number</lable>
-		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" required/>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx" />
 
 		<lable for="password">Password</lable>
 		<input type="password" id="password" placeholder="Password" required/>
 
-		<label for="tos">I agree to the TOS</label>
-		<input type="checkbox" id="tos" required/>
-		<button type="submit">
+		<lable for="tos">I agree to the TOS</lable>
+		<input type="checkbox"  id="tos" required/>
+		<button type="submit">Submit</button>>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
